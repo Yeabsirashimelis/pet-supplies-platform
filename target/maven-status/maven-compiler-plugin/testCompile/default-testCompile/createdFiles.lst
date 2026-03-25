@@ -1,0 +1,4 @@
+com/company/petplatform/im/ImServiceTest.class
+com/company/petplatform/approval/ApprovalServiceTest.class
+com/company/petplatform/catalog/CatalogServiceTest.class
+com/company/petplatform/auth/AuthServiceTest.class

@@ -1,0 +1,4 @@
+/app/src/test/java/com/company/petplatform/approval/ApprovalServiceTest.java
+/app/src/test/java/com/company/petplatform/auth/AuthServiceTest.java
+/app/src/test/java/com/company/petplatform/catalog/CatalogServiceTest.java
+/app/src/test/java/com/company/petplatform/im/ImServiceTest.java
