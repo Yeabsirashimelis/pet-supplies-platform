@@ -30,7 +30,7 @@ class CatalogServiceTest {
   void shouldRejectCategoryDepthBeyondFour() {
     when(authContext.currentUser()).thenReturn(new CurrentUser(1L, "m1", Set.of("MERCHANT"), 1L));
     CategoryEntity parent = new CategoryEntity();
-    parent.setDepth(4);
+    parent.setDepth((short) 4);
     parent.setPath("L1/L2/L3/L4");
     when(categoryRepository.findById(10L)).thenReturn(Optional.of(parent));
 

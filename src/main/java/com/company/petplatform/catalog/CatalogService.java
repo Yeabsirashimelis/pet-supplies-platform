@@ -79,7 +79,7 @@ public class CatalogService {
     entity.setCategoryCode(req.categoryCode());
     entity.setCategoryName(req.categoryName());
     entity.setParentId(req.parentId());
-    entity.setDepth(depth);
+    entity.setDepth((short) depth);
     entity.setPath(path);
     entity.setStatus("ACTIVE");
     entity.setCreatedBy(user.id());

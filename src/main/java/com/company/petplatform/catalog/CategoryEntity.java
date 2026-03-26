@@ -23,8 +23,8 @@ public class CategoryEntity {
   @Column(name = "parent_id")
   private Long parentId;
 
-  @Column(nullable = false)
-  private Integer depth;
+  @Column(nullable = false, columnDefinition = "TINYINT UNSIGNED")
+  private Short depth;
 
   @Column(nullable = false)
   private String path;
@@ -42,8 +42,8 @@ public class CategoryEntity {
   public void setCategoryName(String categoryName) { this.categoryName = categoryName; }
   public Long getParentId() { return parentId; }
   public void setParentId(Long parentId) { this.parentId = parentId; }
-  public Integer getDepth() { return depth; }
-  public void setDepth(Integer depth) { this.depth = depth; }
+  public Short getDepth() { return depth; }
+  public void setDepth(Short depth) { this.depth = depth; }
   public String getPath() { return path; }
   public void setPath(String path) { this.path = path; }
   public String getStatus() { return status; }

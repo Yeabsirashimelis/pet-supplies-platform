@@ -23,7 +23,7 @@ public class CatalogDtos {
       Long parentId) {
   }
 
-  public record CategoryResponse(Long id, String categoryCode, String categoryName, Long parentId, Integer depth, String path, String status) {
+  public record CategoryResponse(Long id, String categoryCode, String categoryName, Long parentId, Short depth, String path, String status) {
   }
 
   public record CreateAttributeRequest(
