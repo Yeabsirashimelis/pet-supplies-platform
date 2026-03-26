@@ -84,6 +84,18 @@ Expected: Flyway migration `V1__init.sql` applied successfully.
 ./run_tests.sh
 ```
 
+PowerShell on Windows:
+
+```powershell
+./run_tests.ps1
+```
+
+Or explicitly via Git Bash:
+
+```powershell
+bash ./run_tests.sh
+```
+
 Expected final line includes:
 
 `run_tests.sh output showing unit tests + API tests passing`
